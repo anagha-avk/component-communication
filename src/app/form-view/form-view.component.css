@@ -1,0 +1,23 @@
+.wrapper {
+  width: 60%;
+  transform: translate(35%);
+}
+
+.header {
+  padding: 5% 0 0 20%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.form-start {
+  padding: 10% 0 10% 0;
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+label {
+  padding-left: 20%;
+  line-height: 2.5;
+}

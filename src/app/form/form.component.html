@@ -1,0 +1,56 @@
+<div class="wrapper">
+  <div class="header">Registration Form</div>
+  <div class="form-start">
+    <form [formGroup]="formValue">
+      <fieldset>
+        <div class="name-field">
+          <div class="firstName">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              required
+              formControlName="fname"
+            />
+          </div>
+          <div class="lastName">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              required
+              formControlName="lname"
+            />
+          </div>
+        </div>
+        <div class="email-field">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            formControlName="email"
+          />
+        </div>
+        <div class="phone-field">
+          <label for="phone">Contact Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            formControlName="phone"
+          />
+        </div>
+        <div class="submit">
+          <button (click)="sendValue()">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <app-form-view [message]="data"> </app-form-view>
+</div>

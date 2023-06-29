@@ -1,0 +1,48 @@
+.wrapper {
+  width: 60%;
+  transform: translate(35%);
+}
+
+.header {
+  padding: 5% 0 0 33%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.form-start {
+  padding: 10% 0 10% 0;
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+.submit {
+  transform: translate(43%);
+  padding-top: 5%;
+}
+
+input[type="tel"] {
+  transform: translate(15%);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  transform: translate(56%);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type="text"] {
+  transform: translate(35%);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding-left: 20%;
+  line-height: 2.5;
+}
